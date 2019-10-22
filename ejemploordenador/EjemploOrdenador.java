@@ -15,7 +15,7 @@ public class EjemploOrdenador {
         Ordenador pc=new Ordenador();
     pc.amosar();
     
-        System.out.println("Tipo de procesador: ");
+        System.out.println("Tipo de ratón: ");
     String tipo=ordena.next();
     
         System.out.println("Marca del monitor: ");
