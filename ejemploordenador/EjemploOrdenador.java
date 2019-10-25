@@ -30,6 +30,11 @@ public class EjemploOrdenador {
     
     
     
+    Raton rato= new Raton(tipo);
+    Monitor pt = new Monitor(marca,pulgadas);
+    Cpu cpu= new Cpu(velocidad,memoria);
+    Ordenador pc2=new Ordenador("cable", "asus", 21.5f, 3, 24);
+        System.out.println("El raton es de tipo: "+pc2.getRaton());
     
     
     
