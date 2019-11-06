@@ -44,26 +44,37 @@ public Raton getRaton(){
     return raton;
 }
 /**
- * 
- * @param raton me devuelve el valor de raton en esta clase
+ * me devuelve el valor de raton en esta clase
+ * @param raton clase de ratón
  */
 public void setRaton(Raton raton){
     this.raton=raton;
 }
 /**
  * 
- * @return 
+ * @return el valor del monitor
  */
 public Monitor getMonitor(){
     return monitor;
 }
+/**
+ * 
+ * @param monitor modelo y el tamaño de monitor
+ */
 public void setMonitor(Monitor monitor){
     this.monitor=monitor;
 }
-
+/**
+ * 
+ * @return el valor del CPU
+ */
 public Cpu getCpu(){
     return procesador;
 }
+/**
+ * 
+ * @param procesador cuanta memoria ram tiene, y la velocidad de reloj
+ */
 public void setCpu(Cpu procesador){
     this.procesador=procesador;
 }
